@@ -5,7 +5,7 @@
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Coming Soon is a Bootstrap 4 coming soon page theme.",
+    "description": "Score service app that provides daily email game updates.",
     "keywords": [
         "css",
         "sass",

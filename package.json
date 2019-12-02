@@ -1,7 +1,7 @@
 {
-    "title": "Coming Soon",
-    "name": "startbootstrap-coming-soon",
-    "version": "5.0.7",
+    "title": "Score Service Client",
+    "name": "score-service-client",
+    "version": "1.1.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
@@ -14,19 +14,18 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/coming-soon",
+    "homepage": "https://github.com/oskarv/scoreservice-client",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-coming-soon/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/oskarv/scoreservice-client",
+        "email": "https://github.com/oskarv/scoreservice-client"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Oskar (http://medium.com/@oskarv)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-coming-soon.git"
+        "url": "https://github.com/oskarv/scoreservice-client"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",

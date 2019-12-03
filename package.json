@@ -7,12 +7,10 @@
     },
     "description": "Score service app that provides daily email game updates.",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "basketball",
+        "daily",
+        "email",
+        "scores"
     ],
     "homepage": "https://github.com/oskarv/scoreservice-client",
     "bugs": {

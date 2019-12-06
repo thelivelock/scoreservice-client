@@ -3,7 +3,7 @@
 const subButton = document.getElementById("subButton");
 
 const validateEmail = (email) => {
-  // RFC 2822 
+  // RFC 2822 / https://stackoverflow.com/a/1373724/3429290
   const regex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
   return regex.test(String(email).toLowerCase());
 };

@@ -38,13 +38,24 @@
             <h1 class="mb-3">Now in public BETA!</h1>
             <p class="mb-5">Get <strong>daily email digest</strong> of all basketball games
                played that day! With statistics of best performing players and interesting 
-               facts about played games!</p>
-            <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
+               facts about played games!
+            </p>
+
+            <span id="invalidEmailMessage" style="display: none;">
+                <h6>Invalid email!</h6>
+            </span>
+
+            <div class="input-group input-group-newsletter" id="emailInputComponent">
+              <input type="email" class="form-control" placeholder="Enter email..." 
+                                  id="emailInput" aria-label="Enter email..." aria-describedby="basic-addon">
               <div class="input-group-append">
-                <button class="btn btn-secondary" type="button">Subscribe!</button>
+                <button class="btn btn-secondary" id="subButton" type="button">Subscribe!</button>
               </div>
             </div>
+            <span id="postSubscribeMessage" style="display: none;">
+              <h4>Thanks for subscribing!</h4>
+              <h5>Please check your inbox.</h5>
+            </span>
           </div>
         </div>
       </div>
@@ -55,6 +66,7 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <script src="js/popup.js"></script>
 </body>
 
 </html>

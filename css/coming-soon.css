@@ -38,16 +38,6 @@ video, image {
   z-index: 0;
 }
 
-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  position: fixed;
-  font-size: large;
-  text-align: center;
-}
-
 @media (pointer: coarse) and (hover: none) {
   body {
     background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;

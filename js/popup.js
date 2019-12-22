@@ -14,7 +14,6 @@ subButton.onclick = () => {
 
   if (isEmailValid) {
     const data = { "email": email };
-    console.log(data);
     sendData(data);
 
     $('#emailInputComponent').hide();

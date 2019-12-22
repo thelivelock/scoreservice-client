@@ -13,6 +13,10 @@ subButton.onclick = () => {
   const isEmailValid = validateEmail(email);
 
   if (isEmailValid) {
+    const data = { "email": email };
+    console.log(data);
+    sendData(data);
+
     $('#emailInputComponent').hide();
     $('#invalidEmailMessage').css('display', 'none');
     $('#postSubscribeMessage').css('display', 'block');

@@ -8,6 +8,6 @@ const sendData = (data) => {
     type: "POST",
     url: url,
     dataType: "json",
-    data: data
+    data: JSON.stringify(data)
   })
 };

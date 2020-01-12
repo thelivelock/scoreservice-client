@@ -1,0 +1,34 @@
+/* for adding more countries look up github.com/lafeber/world-flags-sprite */
+
+.f32 {
+  top: 0;
+  right: 0;
+  position: fixed;
+}
+
+.f32 .flag {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  line-height: 32px;
+  margin: 0 8px 0 8px;
+  display: inline-block;
+  vertical-align: text-top;
+  background: url("../img/flags.png") no-repeat;
+}
+
+.f32 .us {
+  background-position: 0 -7328px;
+}
+
+.f32 .rs {
+  background-position: 0 -6176px;
+}
+
+.f32 .br {
+  background-position: 0 -1600px;
+}
+
+.f32 .in {
+  background-position: 0 -3712px;
+}

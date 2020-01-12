@@ -16,12 +16,15 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i"
+    rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
   <link href="css/coming-soon.css" rel="stylesheet">
-
+  <link href="css/flags.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,39 +40,47 @@
       <div class="row h-100">
         <div class="col-12 my-auto">
           <div class="masthead-content text-white py-5 py-md-0">
-            <h2 class="mb-3">Now in public BETA!</h2>
-            <p class="mb-5">Get <strong>daily email digest</strong> of all basketball games
-               played that day! With statistics of best performing players and interesting 
+            <h2 class="mb-3" id="beta-text">Now in public BETA!</h2>
+            <p class="mb-5" id="main-text">Get <strong>daily email digest</strong> of all basketball games
+                played that day! With statistics of best performing players and interesting
                facts about played games!
             </p>
 
             <span id="invalidEmailMessage" style="display: none;">
-                <h6>Invalid email!</h6>
+              <h6 id="invalid-email">Invalid email!</h6>
             </span>
 
             <div class="input-group input-group-newsletter" id="emailInputComponent">
-              <input type="email" class="form-control" placeholder="Enter email..." 
-                                  id="emailInput" aria-label="Enter email..." aria-describedby="basic-addon">
+              <input type="email" class="form-control" placeholder="Enter email..." id="emailInput"
+                aria-label="Enter email..." aria-describedby="basic-addon">
               <div class="input-group-append">
                 <button class="btn btn-secondary" id="subButton" type="button">Subscribe!</button>
               </div>
             </div>
 
             <span id="postSubscribeMessage" style="display: none;">
-              <h4>Thank you for subscribing!</h4>
-              <h5>Please check your inbox.</h5>
+              <h4 id="thank-you-note">Thank you for subscribing!</h4>
+              <h5 id="check-inbox-text">Please check your inbox.</h5>
             </span>
           </div>
+        </div>>
 
-          <footer>
-            <strong>
-              &copy; The Live Lock &trade; All rights reserved
-            </strong>
-          </footer>
+        <footer>
+          <strong>
+            &copy; The Live Lock &trade; All rights reserved
+          </strong>
+        </footer>
 
-        </div>
+        <ul class="f32">
+          <li class="flag us"></li>
+          <li class="flag rs"></li>
+          <li class="flag br"></li>
+          <li class="flag in"></li>
+        </ul>
+
       </div>
     </div>
+  </div>
   </div>
 
   <!-- Bootstrap core JavaScript -->
@@ -77,6 +88,7 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <script src="js/sendData.js"></script>
+  <script src="i18n/i18n.js"></script>
   <script src="js/popup.js"></script>
 </body>
 
